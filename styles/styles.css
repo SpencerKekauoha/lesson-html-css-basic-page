@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+.nav-bar-container {
+  height: 10vh;
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.nav-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: pink;
+  text-decoration: none;
+  transition: ease-in-out 1s;
+}
+
+.landing-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1465441494912-68f5747c3fe0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=79a4f3aa3db32cc22b778d7d3fdf6600");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border: 1px red solid;
+  height: 100vh;
+}
+
+.landing-page-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+}
